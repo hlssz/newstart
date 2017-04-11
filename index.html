@@ -13,16 +13,24 @@
 .bt3{
 	margin:30px;
 }
+
+input{
+	border: 1px solid blue;
+	padding: 7px 0px;
+	border-radius: 3px;
+	padding-left:5px;
+}
 .inputtxt{
 	margin:0px;
 }
 .inputsub{
+	border: 1px solid green;
 	margin:0 0 0 10;
+	width:50px;
+	color:red;
 }
-input, button{font-family:"Arial", "Tahoma", "微软雅黑", "雅黑";border:0;
-vertical-align:middle;margin:8px;line-height:18px;font-size:18px} 
-.btn{width:140px;height:36px;line-height:18px;font-size:18px;
-background:url("http://www.divcss5.com/uploads/allimg/1309/1_130916141906_1.jpg") no-repeat left top;color:#FFF;padding-bottom:4px} 
+
+
 </style>
 </head>
 <body class="bg">
@@ -31,8 +39,6 @@ background:url("http://www.divcss5.com/uploads/allimg/1309/1_130916141906_1.jpg"
 <div>
 <form action="index.php" method="POST">
 <input class="inputtxt" type="txt" /><input class="inputsub" type="submit" />
-<input type="button" class="btn" value="按钮" onmouseover="this.style.backgroundPosition='left -36px'"
- onmouseout="this.style.backgroundPosition='left top'" />
 </form>
 </div>
 </body>
